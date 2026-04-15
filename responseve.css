@@ -85,10 +85,20 @@
 
 @media (max-width: 768px) {
     header main.container {
-        height: calc(100vh - 160px);
-        padding: 0 20px;
+        height: auto;
+        padding: 40px 20px;
     }
-
+    body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    footer {
+        height: auto;
+        padding: 15px 10px;
+        margin-top: auto; 
+    }
     header main .introduction h4 {
         font-size: 55px;
         padding: 12px 0;
@@ -268,6 +278,7 @@
 }
 
 @media (max-width: 768px) {
+
     .contact-us {
         padding: 24px 16px;
         grid-template-rows: auto;
@@ -279,7 +290,7 @@
         border-radius: 20px;
     }
 
-    .contact-us .container-fluid h4 {
+    .contact-us .cشntainer-fluid h4 {
         font-size: 28px;
     }
 
